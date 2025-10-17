@@ -13,7 +13,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', '1BVtsOKEBuz6czcGFeSWqgxnNtR1mgs9COyh34lqA5U4HVuyvmb2p3L9g-96sIgU7BR96o-cMVlYIJvkPBYoxDUg8I_lick9K2x98_HXgLBl5jKoth3GqrL16bt_HUnq5Qvt7ReZ4EeVFioEYklVNJSEZewlHIh9II7Ob6Js-rMrihhalSmPKM4Da6IAAX91kSaL72mUjj1sbeV85rb-OY_2HeNJY7H2_vQmI0VjWsoirpNNytQEDwrfONEFQbtqYXtwkkcvhePRb6ihxHkpFKx0NIKZbK_MTEE37KTsU9RMUI4pxQnuNRAxfXQpZIAaTOCdELByTfsMGzBacEQ44A3wLBrNjNX4=')
 API_ID = int(environ.get('API_ID', '23903140'))
 API_HASH = environ.get('API_HASH', '579f1bcf3eac1660d81ef34b09906012')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8479613917:AAGJk9ZPzDmnMapdeOY_zK3-me5S_2JSzF8")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8343155856:AAGdq-92dYfdkjdHUF9D1gQlaXzAYCi5CbM")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
@@ -59,7 +59,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://OveshBoss:ovesh.boss@cluster0.lg7h80v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ovesh:ovesh.boss@ovesh.95jpp8g.mongodb.net/?retryWrites=true&w=majority&appName=Ovesh")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
@@ -72,7 +72,7 @@ S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When F
 
 
 # Premium And Referal Settings
-PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
+PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
 
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
@@ -196,5 +196,6 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
