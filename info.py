@@ -10,7 +10,7 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', '1BVtsOKEBuz6czcGFeSWqgxnNtR1mgs9COyh34lqA5U4HVuyvmb2p3L9g-96sIgU7BR96o-cMVlYIJvkPBYoxDUg8I_lick9K2x98_HXgLBl5jKoth3GqrL16bt_HUnq5Qvt7ReZ4EeVFioEYklVNJSEZewlHIh9II7Ob6Js-rMrihhalSmPKM4Da6IAAX91kSaL72mUjj1sbeV85rb-OY_2HeNJY7H2_vQmI0VjWsoirpNNytQEDwrfONEFQbtqYXtwkkcvhePRb6ihxHkpFKx0NIKZbK_MTEE37KTsU9RMUI4pxQnuNRAxfXQpZIAaTOCdELByTfsMGzBacEQ44A3wLBrNjNX4=')
+SESSION = environ.get('SESSION', 'OveshVBoss')
 API_ID = int(environ.get('API_ID', '23903140'))
 API_HASH = environ.get('API_HASH', '579f1bcf3eac1660d81ef34b09906012')
 BOT_TOKEN = environ.get('BOT_TOKEN', "8343155856:AAGdq-92dYfdkjdHUF9D1gQlaXzAYCi5CbM")
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
